@@ -38,9 +38,7 @@
 
 Moviebox is a content based machine learning recommending system build with the powers of [`tf-idf`](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) and [`cosine similarities`](https://en.wikipedia.org/wiki/Cosine_similarity).
 
-Initially, a natural number, that corresponds to the ID of a unique movie title, is accepted as input from the user. Through `tf-idf` the plot summaries of 5000 different movies that reside in the dataset, are analyzed and vectorized. Next, a number of movies is chosen as recommendations based on their `cosine similarity` with the vectorized input movie. Specifically, the cosine value of the angle between any two non-zero vectors, resulting from their inner product, is used as the primary measure of similarity. Thus, only movies whose story and meaning are as close as possible to the initial one, are displayed to the user as recommendations.
 
-The [dataset](moviebox/dataset/movies.csv) in use is a random subset of the [Carnegie Mellon Movie Summary Corpus](http://www.cs.cmu.edu/~ark/movie$-data/), and it consists of `5000` movie titles along with their respective categories and plots.
 
 ## Install
 
@@ -159,9 +157,7 @@ Display process-related information while running.
 
 Coded with ❤ by
 
-- Mario Sinani ([@mariocfhq](https://github.com/mariocfhq))
-- Klaus Sinani ([@klauscfhq](https://github.com/klauscfhq))
+- Reed (CollabHook)
 
 ## License
 
-[MIT](https://github.com/klauscfhq/moviebox/blob/master/license.md)
